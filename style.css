@@ -22,7 +22,7 @@ body{
 }
 
 section{
-   margin-top: 40px;
+   margin-bottom: 40px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -111,7 +111,6 @@ h1,h2,h3,h4,h5,h6{
 
 .mission-box{
    display: flex;
-   max-height: 700px;
 }
 
 .mission-img{
@@ -259,7 +258,7 @@ h1,h2,h3,h4,h5,h6{
 
 @media (max-width: 1199px) {
     .mission-logo{
-        bottom: -700px;
+        bottom: -650px;
         right: 20px;
     }
 }
@@ -312,7 +311,7 @@ h1,h2,h3,h4,h5,h6{
         margin-bottom: 130px;
     }
     section {
-        margin-top: 30px;
+        margin-top: 20px;
     }
     body{
         font-size: 16px;
@@ -348,15 +347,14 @@ h1,h2,h3,h4,h5,h6{
 @media (max-width: 575px) {
     .container{
         padding: 0 15px;
-        margin: 0 auto;
+        margin: auto auto;
     }
     .header .container{
         padding: 0 15px;
-         padding-top: 20px;
+        padding-top: 20px;
     }
     .mission-box{
         flex-direction: column-reverse;
-        margin-top: 100px;
     }
     .mission-info{
         padding-bottom: 40px;
