@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .main{
-   background-image: url(/img/Rectangle\ 1.png);
+   background-image: url(img/Rectangle\ 1.png);
    background-position: center;
    background-size: cover;
    padding: 70px;
@@ -164,7 +164,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .end{
-   background-image: url(/img/Rectangle\ 10.png);
+   background-image: url(img/Rectangle\ 10.png);
    background-position: center;
    background-size: cover;
    margin-bottom: 60px;
@@ -199,7 +199,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .contacts{
-    background-image: url(/img/Rectangle\ 10.png);
+    background-image: url(img/Rectangle\ 10.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
