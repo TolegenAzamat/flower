@@ -247,3 +247,113 @@ h1,h2,h3,h4,h5,h6{
     max-width: 200px;
     padding: 5px;
 }
+
+@media (max-width: 1199px) {
+    .mission-logo{
+        bottom: -700px;
+        right: 20px;
+    }
+}
+
+/*Medium: 768px-991px*/
+@media (max-width: 991px) {
+    .container{
+        max-width: 720px;
+    }
+    .header .container{
+        max-width: 720px;
+    }
+    .mission-img {
+        max-width: 350px;
+    }
+    .mission-info {
+        padding-top: 30px;
+    }
+}
+
+/*Small: 576px-767px*/
+@media (max-width: 767px) {
+    .container{
+        max-width: 540px;
+    }
+    .header .container{
+        max-width: 540px;
+    }
+    .mission-img {
+        max-width: 250px;
+    }
+    .mission-info {
+        padding-top: 10px;
+    }
+    .main-title {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .main-text {
+        font-size: 16px;
+        max-width: 230px;
+        margin: 30px auto;
+    }
+    .button{
+        padding: 5px;
+        width: 150px;
+        font-size: 18px;
+    }
+    .main-action{
+        margin-bottom: 130px;
+    }
+    section {
+        margin-top: 30px;
+    }
+    body{
+        font-size: 16px;
+    }
+    .mission-title{
+        font-size: 40px;
+    }
+    .mission-text{
+        line-height: 2.5;
+        max-width: 270px;
+        text-align: center;
+    }
+    .mission-logo{
+        bottom: -420px;
+        right: 20px;
+    }
+    .process-info{
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .end-title{
+        font-size: 40px;
+        padding-top: 80px;
+    }
+    .end-text{
+        padding-bottom: 150px;
+    }
+}
+
+/*Extra small: 0px (320px) - 575px*/
+@media (max-width: 575px) {
+    .container{
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .header .container{
+        padding: 0 15px;
+    }
+    .mission-box{
+        flex-direction: column-reverse;
+        margin-top: 200px;
+    }
+    .mission-info{
+        padding-bottom: 40px;
+    }
+    .mission-img{
+        max-width: 100%;
+    }
+    .mission-logo {
+        bottom: -460px;
+    }
+}
