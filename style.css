@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .main{
-   background-image: url(img/Rectangle\ 1.png);
+   background-image: url(/img/Rectangle\ 1.png);
    background-position: center;
    background-size: cover;
    padding: 70px;
@@ -164,7 +164,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .end{
-   background-image: url(img/Rectangle\ 10.png);
+   background-image: url(/img/Rectangle\ 10.png);
    background-position: center;
    background-size: cover;
    margin-bottom: 60px;
@@ -199,12 +199,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .contacts{
-    background-image: url(img/Rectangle\ 10.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 225px 300px;
+    padding-top: 30px;
 }
 
 .contacts-box{
@@ -225,6 +220,12 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 20px;
 }
 
+.contacts-social-seti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .whatsapp{
     text-decoration: none;
     color: #000;
@@ -235,9 +236,12 @@ h1,h2,h3,h4,h5,h6{
     max-width: 200px;
     padding: 5px;
     margin-right: 10px;
+    display: block;
+    margin-bottom: 30px;
 }
 
 .inst{
+    display: block;
     text-decoration: none;
     color: #000;
     font-family: 'Pacifico', cursive;
@@ -247,6 +251,11 @@ h1,h2,h3,h4,h5,h6{
     max-width: 200px;
     padding: 5px;
 }
+
+
+
+
+
 
 @media (max-width: 1199px) {
     .mission-logo{
@@ -315,6 +324,7 @@ h1,h2,h3,h4,h5,h6{
         line-height: 2.5;
         max-width: 270px;
         text-align: center;
+        margin: 0 auto;
     }
     .mission-logo{
         bottom: -420px;
@@ -341,14 +351,17 @@ h1,h2,h3,h4,h5,h6{
         margin: 0 auto;
     }
     .header .container{
-        padding: 0 15px;
+        padding: 10px 15px;
     }
     .mission-box{
         flex-direction: column-reverse;
-        margin-top: 200px;
+        margin-top: 100px;
     }
     .mission-info{
         padding-bottom: 40px;
+    }
+    .mission-text{
+        margin: 0 auto;
     }
     .mission-img{
         max-width: 100%;
